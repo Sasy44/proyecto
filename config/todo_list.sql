@@ -20,7 +20,7 @@ CREATE TABLE `tareas` (
 	CONSTRAINT `tareas_ibfk_1` FOREIGN KEY (`category_id`) REFERENCES `categorias` (`id`) ON UPDATE NO ACTION ON DELETE SET NULL
 );
 
--- Insertar las dos categorías
+-- Insertar las dos categorias
 INSERT INTO categorias (name) VALUES ('Trabajo'), ('Personal');
 
 -- Insertar las dos tareas
