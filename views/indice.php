@@ -1,5 +1,5 @@
 <?php require_once __DIR__ . '/../views/encabezado.php'; ?>
-<h2>TAREAS</h2>
+<h2>TODAS LAS TAREAS</h2>
 <?php if (!empty($errors)): ?>
     <ul class="error">
         <?php foreach ($errors as $error): ?>
